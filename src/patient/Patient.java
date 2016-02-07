@@ -1,3 +1,5 @@
+package src.patient;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -24,10 +26,10 @@ public class Patient {
 		boolean finished = false;
 		while (!finished) {
 			try {
-				System.out.println("Please enter the Patient's year of birth: ");
+				System.out.println("Please enter the src.patient.Patient's year of birth: ");
 				str = System.console().readLine();
 				age = 2015 - Integer.parseInt(str);
-				System.out.println("Please enter the Patient's name: ");
+				System.out.println("Please enter the src.patient.Patient's name: ");
 				str = System.console().readLine();
 				patientList.add(new Patient(age, str));
 				System.out.println("Would you like to add another patient? N to exit.");

@@ -1,3 +1,5 @@
+package src.codeflow;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -31,7 +33,7 @@ public class CodeFlow {
 			ex.printStackTrace();
 		}
 	}
-	
+	/*
 	public void launch2() {
 		try {
 			myList.add(1);
@@ -45,12 +47,12 @@ public class CodeFlow {
 			ex.printStackTrace();
 		}
 	}
-	
+	*/
 	public static void main(String[] args) {
 		CodeFlow cf = new CodeFlow();
 		
 		//cf.launch(6);
 		
-		cf.launch2();
+		//cf.launch2();
 	}
 }

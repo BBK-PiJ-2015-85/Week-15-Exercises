@@ -1,3 +1,5 @@
+package src.errorhandling;
+
 public class ErrorHandling {
 	public void launch() {
 		String str;
